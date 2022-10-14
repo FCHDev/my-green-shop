@@ -3,30 +3,35 @@
     "id": 1,
     "name": "Livre",
     "price": 10.99,
-    "imgUrl": "https://static.fnac-static.com/multimedia/Images/FR/NR/27/93/ca/13275943/1540-1/tsp20210805094543/The-Little-Book-of-Chanel.jpg"
+    "imgUrl": "https://static.fnac-static.com/multimedia/Images/FR/NR/27/93/ca/13275943/1540-1/tsp20210805094543/The-Little-Book-of-Chanel.jpg",
+    "category" : "Culture"
   },
   {
     "id": 2,
     "name": "Stylo",
     "price": 8.99,
-    "imgUrl": "https://assets.manufactum.de/p/065/065704/65704_02.jpg/bullet-pen.jpg?w=400&h=0&scale.option=fill&canvas.width=100.0000%25&canvas.height=481.9277%25&cw=100.0000%25&ch=100.0000%25"
+    "imgUrl": "https://assets.manufactum.de/p/065/065704/65704_02.jpg/bullet-pen.jpg?w=400&h=0&scale.option=fill&canvas.width=100.0000%25&canvas.height=481.9277%25&cw=100.0000%25&ch=100.0000%25",
+    "category" :  "Culture"
   },
   {
     "id": 3,
-    "name": "Serviettes Plage",
+    "name": "Serviettes de plage",
     "price": 13.50,
-    "imgUrl": "https://i.etsystatic.com/21674059/r/il/fed7b4/2102019410/il_570xN.2102019410_jpnc.jpg"
+    "imgUrl": "https://i.etsystatic.com/21674059/r/il/fed7b4/2102019410/il_570xN.2102019410_jpnc.jpg",
+    "category" :  "Textile"
   },
   {
     "id": 4,
     "name": "Chapeau 'Bob'",
     "price": 22.40,
-    "imgUrl": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b11277c0a2424d33b8daacde0077d35c_9366/Trefoil_Bucket_Hat_Black_AJ8995_02_standard_hover.jpg"
+    "imgUrl": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b11277c0a2424d33b8daacde0077d35c_9366/Trefoil_Bucket_Hat_Black_AJ8995_02_standard_hover.jpg",
+    "category" :  "Textile"
   },
   {
     "id": 5,
     "name": "Brosses à dents",
     "price": 12.99,
-    "imgUrl": "https://cdn.shopify.com/s/files/1/0243/0405/8432/files/Paquet-de-5-brosses-dents-adultes-en-bambou-soies-souples-cologiques-cepillo-dientes-bambu-brosse-dents-108422_5f3ed5e4-124a-4695-92dc-5e960de1d016_480x480.jpg?v=1659360325"
+    "imgUrl": "https://cdn.shopify.com/s/files/1/0243/0405/8432/files/Paquet-de-5-brosses-dents-adultes-en-bambou-soies-souples-cologiques-cepillo-dientes-bambu-brosse-dents-108422_5f3ed5e4-124a-4695-92dc-5e960de1d016_480x480.jpg?v=1659360325",
+    "category" :  "Hygiène"
   }
 ]

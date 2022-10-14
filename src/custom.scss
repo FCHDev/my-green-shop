@@ -1,2 +1,18 @@
-@import "bootstrap/dist/css/bootstrap.min.css"
+@import "bootstrap/dist/css/bootstrap.min.css";
 
+$theme-colors: (
+        "primary": #0074d9,
+        "secondary": #B2FFA9,
+        "danger": #d90429,
+        "success": #38686A,
+        "dark": black
+);
+
+@media screen and (max-width: 428px){
+.category-buttons {
+  display: none;
+}
+
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

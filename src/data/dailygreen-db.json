@@ -2,8 +2,8 @@
   {
     "category": "Hygiène",
     "description": "Les huiles végétales issues de l'agriculture biologique (Olive, karité, Colza et coco) sont douces et nourrissantes pour la peau. Les huiles (olive, colza, coco et karité) issues de l'agriculture biologiques sont nourrissantes. L'huile de sésame douce a une action apaisante et assouplissante.",
-    "id": "0",
-    "imgURL": "https://www.yebacosmetiques.com/40-large_default/savon-naturel-amande-douce-biologique.jpg",
+    "id": 0,
+    "imgUrl": "https://www.yebacosmetiques.com/40-large_default/savon-naturel-amande-douce-biologique.jpg",
     "name": "Savon de Marseille",
     "price": 12.9,
     "stock": 10
@@ -11,8 +11,8 @@
   {
     "category": "Entretien",
     "description": "Nettoyant Sols et surfaces lisses, une formule originale au savon de Marseille qui constitue un nettoyant multi-usages destiné pour tous types de sol, sanitaires et toute autre surface lavable. Il nettoie, dégraisse et fait briller. Parfum 100% huile essentielle, il laisse une note de fraîcheur dans toute la maison. Format : 1L.",
-    "id": "1",
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fsavonnier.jpg?alt=media&token=b8fc1c4e-eec9-4c05-b554-c9ddb3bedec8",
+    "id": 1,
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fsavonnier.jpg?alt=media&token=b8fc1c4e-eec9-4c05-b554-c9ddb3bedec8",
     "name": "Nettoyant sol",
     "price": 2.86,
     "stock": 7
@@ -20,8 +20,8 @@
   {
     "category": "Hygiène",
     "description": "Certifié Cosmos Natural. Fabriqué en France. Huile d'olive nourrissante. Non testé sur les animaux. Sans colorant, sans parfum de synthèse, sans agent moussant de synthèse, sans matière animale. Format économique et écologique, idéal pour recharger votre flacon pompe ! Flacon pompe de 1l.",
-    "id": "2",
-    "imgURL": "https://static.greenweez.com/images/products/100000/600/douce-nature-savon-de-marseille-liquide-verveine-1l.jpg",
+    "id": 2,
+    "imgUrl": "https://static.greenweez.com/images/products/100000/600/douce-nature-savon-de-marseille-liquide-verveine-1l.jpg",
     "name": "Savon liquide de Marseille",
     "price": 10.25,
     "stock": 8
@@ -29,8 +29,8 @@
   {
     "category": "Entretien",
     "description": "Ces copeaux sont parfaits pour confectionner sa lessive maison et constituent une solution hypoallergénique, écologique et économique pour laver en douceur le linge de toute la famille, même pour les peaux les plus sensibles. Formulé sans conservateur, sans colorant, sans parfum, sans huile de palme et sans graisse animale, et exclusivement avec de l'huile d'olive, ce savon 100% authentique offre une parfaite alternative saine et naturelle aux lessives traditionnelles.",
-    "id": "3",
-    "imgURL": "https://static.greenweez.com/images/products/243000/600/fer-a-cheval-copeaux-de-savon-de-marseille-100-olive-750g.jpg",
+    "id": 3,
+    "imgUrl": "https://static.greenweez.com/images/products/243000/600/fer-a-cheval-copeaux-de-savon-de-marseille-100-olive-750g.jpg",
     "name": "Savon de Marseille (copeaux)",
     "price": 16.45,
     "stock": 8
@@ -38,121 +38,109 @@
   {
     "category": "Décoration",
     "description": "Profitez de la magie d’un véritable feu de bois. Quelques bûches suffisent pour créer de belles flammes qui crépitent et laissent un parfum agréable pour une soirée inoubliable entre amis ou à deux. Economique et naturel, vous pourrez parfaitement grâce aux braises obtenues, dîner ensemble autour du Kub® en grillant viandes ou poissons grâce aux accessoires disponibles à cet effet. Redécouvrez le plaisir du feu et du BBQ !\nVous pouvez également équiper ce braséro avec un kit au bio-éthanol.\nEquipé de 4 roulettes, il se déplace selon vos désirs.\nKub peut s’habiller de différents bois brut (chêne, frêne, pin, essences exotiques) . La largeur du pourtour du foyer (entre 30 et 40 cm selon modèle) vous permet de tenir vos verres ou assiettes loin de la chaleur ou de vous asseoir pour profiter de la douceur du foyer.\nVous pourrez selon votre choix orner la cuve de pierre de lave pour une meilleure diffusion de la chaleur, de sable ....\nHousse de protection et capot de fermeture du foyer en option\n\nPoids : 100 / 120 Kg selon modèle",
-    "description2": "",
     "id": 4,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Ftable-basse.jpgbfe035cb-6e19-4773-88f4-00a4e2fdb507?alt=media&token=ebf6754e-5078-47ef-839a-8c1a493e90eb",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Ftable-basse.jpgbfe035cb-6e19-4773-88f4-00a4e2fdb507?alt=media&token=ebf6754e-5078-47ef-839a-8c1a493e90eb",
     "name": "Table basse \"Moche\"",
-    "price": "240.90",
+    "price": 240.90,
     "stock": "3"
   },
   {
     "category": "Hygiène",
     "description": "Ce baume déodorant s'applique au doigt, comme une crème, sur les aisselles. Sa composition aux poudres et les synergies d'huiles essentielles utilisées lui confèrent efficacité et toucher non-gras. Il est évident que vous serez agréablement surpris(e) par ce produit à la gestuelle originale !\nIl lutte contre les bactéries qui provoquent les mauvaises odeurs, ceci uniquement formulé avec des ingrédients naturels et sans sels d'aluminium (y compris sans pierre d'alun qui n'est rien de plus qu'un sel d'aluminium).",
-    "description2": "",
     "id": 5,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-l-herbace-50g.jpga94ee343-1d3c-4acc-bec7-f2417110633b?alt=media&token=c7842dbf-b1e2-48c3-85e6-4afb8cd5bbdb",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-l-herbace-50g.jpga94ee343-1d3c-4acc-bec7-f2417110633b?alt=media&token=c7842dbf-b1e2-48c3-85e6-4afb8cd5bbdb",
     "name": "Déodorant en baume",
-    "price": "10.45",
+    "price": 10.45,
     "stock": "18"
   },
   {
     "category": "Hygiène",
     "description": "Ce baume déodorant s'applique au doigt, comme une crème, sur les aisselles. Sa composition aux poudres et les synergies d'huiles essentielles utilisées lui confèrent efficacité et toucher non-gras. Il est évident que vous serez agréablement surpris(e) par ce produit à la gestuelle originale !\nIl lutte contre les bactéries qui provoquent les mauvaises odeurs, ceci uniquement formulé avec des ingrédients naturels et sans sels d'aluminium (y compris sans pierre d'alun qui n'est rien de plus qu'un sel d'aluminium).",
-    "description2": "",
     "id": 6,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-le-fleuri-50g.jpgad4bd3b0-552e-4d84-b16d-0d10f7d232f4?alt=media&token=0c9e3ac8-76ab-43f1-8d8c-7ef1e21613a1",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-le-fleuri-50g.jpgad4bd3b0-552e-4d84-b16d-0d10f7d232f4?alt=media&token=0c9e3ac8-76ab-43f1-8d8c-7ef1e21613a1",
     "name": "Déodorant en baume",
-    "price": "10.45",
+    "price": 10.45,
     "stock": "12"
   },
   {
     "category": "Hygiène",
     "description": "Ce baume déodorant s'applique au doigt, comme une crème, sur les aisselles. Sa composition aux poudres et les synergies d'huiles essentielles utilisées lui confèrent efficacité et toucher non-gras. Il est évident que vous serez agréablement surpris(e) par ce produit à la gestuelle originale !\nIl lutte contre les bactéries qui provoquent les mauvaises odeurs, ceci uniquement formulé avec des ingrédients naturels et sans sels d'aluminium (y compris sans pierre d'alun qui n'est rien de plus qu'un sel d'aluminium).",
-    "description2": "",
     "id": 7,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-mandarine-peau-sensible-50g.jpg85a44806-b435-4749-8da9-bed59c42a7e7?alt=media&token=72ccb0df-58db-49a2-99e2-80847853a082",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fclemence-vivien-deodorant-en-baume-mandarine-peau-sensible-50g.jpg85a44806-b435-4749-8da9-bed59c42a7e7?alt=media&token=72ccb0df-58db-49a2-99e2-80847853a082",
     "name": "Déodorant en baume",
-    "price": "10.45",
+    "price": 10.45,
     "stock": "22"
   },
   {
     "category": "Décoration",
     "description": "Porte savon magnétique max 150g, un porte savon innovant et ultra propre qui permet de fixer son savon sur le mur, le rebord du lavabo ou dans la douche. Il permet un séchage optimal et une meilleure conservation de vos cosmétiques solides. ",
-    "description2": "",
     "id": 8,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fsavont-porte-savon-magnetique-max-150-gr-blister.jpg7cbcaabc-b9ec-4f7b-8695-4fb4785d9368?alt=media&token=b1eb5493-da03-4c41-bb60-9e2438884633",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fsavont-porte-savon-magnetique-max-150-gr-blister.jpg7cbcaabc-b9ec-4f7b-8695-4fb4785d9368?alt=media&token=b1eb5493-da03-4c41-bb60-9e2438884633",
     "name": "Porte savon magnétique",
-    "price": "5.95",
+    "price": 5.95,
     "stock": "24"
   },
   {
     "category": "Décoration",
     "description": "Fabriquez votre propre bougie maison avec ce kit pré-dosé. Pour 1 bougie. Ingrédients naturels. Fabrication française. ",
-    "description2": "",
     "id": 9,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fl-atelier-du-do-it-yourself-kit-diy-pour-bougie-100-vegetale.jpg1cafdd7f-3b06-4bc7-92c1-15e0167e46bf?alt=media&token=4ad31e4a-f43c-4f3a-ba3b-33d51555ce48",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fl-atelier-du-do-it-yourself-kit-diy-pour-bougie-100-vegetale.jpg1cafdd7f-3b06-4bc7-92c1-15e0167e46bf?alt=media&token=4ad31e4a-f43c-4f3a-ba3b-33d51555ce48",
     "name": "Kit diy pour bougie 100% végétale",
-    "price": "3.95",
+    "price": 3.95,
     "stock": "54"
   },
   {
     "category": "Décoration",
     "description": "Porte savon restangulaire en bambou. Un indispensable zéro déchet de votre salle de bain pour protéger et conserver vos cosmétiques solides de manière optimale. Biodégradable et 100% recyclable. Dimensions 10,5 x 6,5cm.",
-    "description2": "",
     "id": 10,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fcroll-and-denecke-porte-savon-rectangulaire-en-bambou.jpg52a39d50-ea46-4a1d-bbfa-114518ea53ae?alt=media&token=fb2df52e-d26c-4727-8e68-29221e5161cb",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fcroll-and-denecke-porte-savon-rectangulaire-en-bambou.jpg52a39d50-ea46-4a1d-bbfa-114518ea53ae?alt=media&token=fb2df52e-d26c-4727-8e68-29221e5161cb",
     "name": "Porte savon en bambou",
-    "price": "4.21",
+    "price": 4.21,
     "stock": "58"
   },
   {
     "category": "",
     "description": "S'adaptant parfaitement à la forme de votre tête, l'oreiller à mémoire de forme BIO se révèle aussi confortable que respectueux de l'environnement !",
-    "description2": "",
     "id": 11,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F80eabafd-3457-4479-b052-dd8b9908f421-1.jpgaf2651e3-1628-43b5-a6a1-93182ede425b?alt=media&token=8cb9ab23-fa34-4451-a76d-5c684a8a9657",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F80eabafd-3457-4479-b052-dd8b9908f421-1.jpgaf2651e3-1628-43b5-a6a1-93182ede425b?alt=media&token=8cb9ab23-fa34-4451-a76d-5c684a8a9657",
     "name": "Traversin bio 150x35cm",
-    "price": "89",
+    "price": 89,
     "stock": "13"
   },
   {
     "category": "Décoration",
     "description": "Flacon 300ml en verre ambré recyclé et recyclable made in Europe. Vendu par lot de 2 unités avec accessoire pompe à savon dispenser noire et or.",
-    "description2": "",
     "id": 12,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F99254848-153e-4d2f-8958-109a237a1ebc-1.jpg3b09ebb2-79c5-4763-a211-9363a549ff35?alt=media&token=ee3aa712-c22d-45c3-aa91-231d59282e5b",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F99254848-153e-4d2f-8958-109a237a1ebc-1.jpg3b09ebb2-79c5-4763-a211-9363a549ff35?alt=media&token=ee3aa712-c22d-45c3-aa91-231d59282e5b",
     "name": "DUO flacon verre ambré 300ml ",
-    "price": "18",
+    "price": 18,
     "stock": "21"
   },
   {
     "category": "Décoration",
     "description": "Véritable élément de décoration pour la chambre de votre enfant, ce lit cabane lui offre un cocon douillet et rassurant pour la nuit et devient une source de création et de jeu la journée. Son aspect cabane saura aviver son imagination et il pourra créer tout son univers et ses histoires autour. Avec ses contours surélevés et ses marches plates pour plus de sécurité et de confort, votre enfant passera la nuit en toute sérénité.",
-    "description2": "",
     "id": 13,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F5e8ac110-45b0-489a-93fd-00a8274a1bf2-1.jpge599e248-d20f-4ecf-9a9c-2c98d0db47a7?alt=media&token=9cbc3368-6ce1-444d-8e2a-e82f301db6ed",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2F5e8ac110-45b0-489a-93fd-00a8274a1bf2-1.jpge599e248-d20f-4ecf-9a9c-2c98d0db47a7?alt=media&token=9cbc3368-6ce1-444d-8e2a-e82f301db6ed",
     "name": "Lit cabane + tiroirs Wilo",
-    "price": "382",
+    "price": 382,
     "stock": "3"
   },
   {
     "category": "Entretien",
     "description": "Lessive en poudre hyper concentrée, correspond à un an de lessive écologique. Économique et conditionnée dans un emballage écologique, elle contient des ingrédients d'origine naturelle. Fabrication Française. Sachet de 3kg. ",
-    "description2": "",
     "id": 14,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fgreenweez-1-an-de-lessive-en-poudre-ecologique-3kg.jpg749b3556-9702-4c70-afef-eceb1ea87601?alt=media&token=1b5dacb1-351b-4cf1-bdc1-cff60e1531a6",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fgreenweez-1-an-de-lessive-en-poudre-ecologique-3kg.jpg749b3556-9702-4c70-afef-eceb1ea87601?alt=media&token=1b5dacb1-351b-4cf1-bdc1-cff60e1531a6",
     "name": "1 an de Lessive en poudre",
-    "price": "19.99",
+    "price": 19.99,
     "stock": "24"
   },
   {
     "category": "Entretien",
     "description": "70 tablettes écologiques, pour 70 lavages. Composées à partir de végétaux et minéraux. Feuille en polyéthylène protectrice, pour protéger de l'humidité. Nettoie, désincruste, dégraisse et fait briller la vaisselle !",
-    "description2": "",
     "id": 15,
-    "imgURL": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fecover-70-tablettes-classiques-lave-vaisselle-ecocert.jpgdd47e8c9-ee65-4b47-8c21-23d4a61a8328?alt=media&token=3007965c-d1c0-4d44-b72e-f9c35427d213",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/dailygreen-f7cd1.appspot.com/o/images%2Fecover-70-tablettes-classiques-lave-vaisselle-ecocert.jpgdd47e8c9-ee65-4b47-8c21-23d4a61a8328?alt=media&token=3007965c-d1c0-4d44-b72e-f9c35427d213",
     "name": "70 tablettes lave-vaisselle",
-    "price": "13.15",
+    "price": 13.15,
     "stock": "60"
   }
 ]
