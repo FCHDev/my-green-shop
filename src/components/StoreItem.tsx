@@ -36,9 +36,9 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                         Description
                     </Button>
                     <div style={{marginTop:"1rem"}}>
-                        <Collapse in={open} dimension="width">
+                        <Collapse in={open} timeout={0}>
                             <div id="example-collapse-text">
-                                <Card body className="fst-italic" style={{ width: '400px' }}>
+                                <Card body className="fst-italic mb-3 h-100" style={{width:"auto"}}>
                                     {description}
                                 </Card>
                             </div>
