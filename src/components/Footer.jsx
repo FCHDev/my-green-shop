@@ -5,11 +5,11 @@ import logo from "../assets/dailygreen-logo.png"
 
 export default function App() {
     return (
-        <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted mb-0 mt-5'>
+        <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted mb-0 mt-5 p-1 h-auto'>
             <section className=''>
 
                 <MDBContainer className='text-center text-md-start mt-5 pt-3'>
-                    <MDBRow className='mt-3'>
+                    <MDBRow>
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <img src={logo} alt="dailygreen" style={{width: "50px"}}/>
@@ -25,21 +25,21 @@ export default function App() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Liens utiles</h6>
 
-                            <a style={{textDecoration: "none"}} className='text-reset'>
+                            <span style={{textDecoration: "none"}} className='text-reset'>
                                 Pricing
-                            </a>
+                            </span>
                             <br/>
-                            <a style={{textDecoration: "none"}} className='text-reset'>
+                            <span style={{textDecoration: "none"}} className='text-reset'>
                                 Paramètres
-                            </a>
+                            </span>
                             <br/>
-                            <a style={{textDecoration: "none"}} className='text-reset'>
+                            <span style={{textDecoration: "none"}} className='text-reset'>
                                 Commandes
-                            </a>
+                            </span>
                             <br/>
-                            <a style={{textDecoration: "none"}} className='text-reset'>
+                            <span style={{textDecoration: "none"}} className='text-reset'>
                                 Help
-                            </a>
+                            </span>
 
                         </MDBCol>
 

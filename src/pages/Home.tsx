@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Home = () => {
-
-
+    
     return (
         <div className="back-image  w-100 rounded p-3">
             <h1 className="mb-4 fw-bold">Bienvenue sur Daily<span
