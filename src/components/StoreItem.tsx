@@ -21,7 +21,7 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
             <Card.Img className="mt-3" variant="top" src={imgUrl} height="250px" style={{objectFit: "contain"}}/>
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-                    <span className="fs-4">{name}</span>
+                    <span className="fs-4 fw-semibold">{name}</span>
                     <span className="ms-2 text-muted">{FormatCurrency(price)}</span>
                 </Card.Title>
                 <div className="mt-auto">
@@ -37,8 +37,8 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                     </Button>
                     <div style={{marginTop:"1rem"}}>
                         <Collapse in={open} timeout={0}>
-                            <div id="example-collapse-text">
-                                <Card body className="fst-italic mb-3 h-100" style={{width:"auto"}}>
+                            <div id="example-collapse-text" className="border-secondary border-1">
+                                <Card body className="fst-italic mb-3 h-100 border-secondary border-4" style={{width:"auto"}}>
                                     {description}
                                 </Card>
                             </div>

@@ -13,7 +13,7 @@ const Store = () => {
 
     return (
         <>
-            <h1 className="mb-4">Boutique</h1>
+            <h1 className="mb-4 fw-bold">Boutique</h1>
             <div className="category-buttons">
                 <Button className="mb-3 me-5" variant="dark" onClick={() => {
                     setDisplay(

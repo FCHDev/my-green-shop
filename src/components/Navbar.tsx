@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <NavbarBs sticky="top" className="bg-white shadow-sm mb-4">
             <Container>
-                <Nav className="me-auto d-flex align-items-center justify-content-around" style={{fontSize: "1.5rem"}}>
+                <Nav className="me-auto d-flex align-items-center justify-content-around fw-semibold fs-3" style={{fontSize: "1.5rem"}}>
                     <Nav.Link to="/" as={NavLink}>Accueil</Nav.Link>
                     <Nav.Link to="/store" as={NavLink}>Boutique</Nav.Link>
                     <Nav.Link to="/about" as={NavLink}>À propos</Nav.Link>

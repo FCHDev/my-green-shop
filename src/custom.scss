@@ -1,4 +1,5 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+//@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap');
 
 $theme-colors: (
         "primary": #0074d9,
@@ -7,6 +8,21 @@ $theme-colors: (
         "success": #38686A,
         "dark": black
 );
+
+* {
+  font-family: 'Mukta', sans-serif;
+}
+
+html {
+  h1, .h1 {
+    font-size: 60px;
+  }
+}
+
+h1, .h1 {
+  font-family: 'Sacramento', cursive;
+}
+
 
 @media screen and (max-width: 428px){
 .category-buttons {
