@@ -17,10 +17,23 @@ html {
   h1, .h1 {
     font-size: 60px;
   }
+  a, .a {
+    color: white;
+  }
 }
 
 h1, .h1 {
   font-family: 'Sacramento', cursive;
+}
+
+.back-image {
+  background-image:
+          linear-gradient(rgba(0,0,0,0.9164259453781514), rgba(248, 248, 248, 0.12)),
+          url('https://images.unsplash.com/photo-1464286141216-66af0ebf8a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3132&q=80');
+  width: 100%;
+  //min-height: 1000px;
+  background-size: cover;
+  color: white;
 }
 
 
@@ -28,7 +41,9 @@ h1, .h1 {
 .category-buttons {
   display: none;
 }
-
+#logo-home {
+  display: none;
+}
 }
 
 @import '~bootstrap/scss/bootstrap.scss';

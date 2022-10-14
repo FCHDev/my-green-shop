@@ -5,11 +5,17 @@ import {useShoppingCart} from "../context/ShoppingCartContext";
 
 const Navbar = () => {
     const {openCart, cartQuantity} = useShoppingCart()
+    const logoblack = require("../assets/dailygreenBlack.jpg")
 
     return (
         <NavbarBs sticky="top" className="bg-white shadow-sm mb-4">
             <Container>
-                <Nav className="me-auto d-flex align-items-center justify-content-around fw-semibold fs-3" style={{fontSize: "1.5rem"}}>
+                <Nav className="me-auto d-flex align-items-center justify-content-around fw-semibold fs-3"
+                     style={{fontSize: "1.5rem"}}>
+                    <Nav.Link to="/" as={NavLink} id="logo-home"><img src={logoblack} alt="dailygreen black" className="rounded me-3"
+                                                       style={{objectFit: "cover"}}
+                                                       height="55px"/></Nav.Link>
+
                     <Nav.Link to="/" as={NavLink}>Accueil</Nav.Link>
                     <Nav.Link to="/store" as={NavLink}>Boutique</Nav.Link>
                     <Nav.Link to="/about" as={NavLink}>À propos</Nav.Link>
