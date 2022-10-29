@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Home = () => {
-    
+
     return (
         <div className="back-image  w-100 rounded p-3">
-            <h1 className="mb-4 fw-bold">Bienvenue sur Daily<span
+            <h1 className="mb-4 fw-bold">Daily<span
                 style={{color: "#228001", fontFamily: "Sacramento", fontWeight: "bold"}}>Green</span></h1>
             <h2>Vous êtes au bon endroit</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium alias assumenda
@@ -12,13 +12,7 @@ const Home = () => {
                 necessitatibus nemo nobis nostrum odit officiis perspiciatis praesentium quam quia quidem quo ratione
                 recusandae rem repellat repudiandae similique sint soluta ullam unde velit veritatis? Architecto
                 blanditiis cupiditate eius enim id illum inventore labore mollitia nihil numquam provident quas quia
-                quidem quo, reiciendis rerum tempora voluptatum. Hic, molestiae tempora? Alias aspernatur dolorum eius
-                facilis iure magni molestias quod voluptates. Aliquam aut commodi debitis, dolorem ea enim expedita
-                facere odio ratione! Aperiam culpa dolorum laboriosam minus nesciunt. A assumenda, at atque aut
-                blanditiis, dignissimos eos eum exercitationem expedita fugiat id impedit inventore libero molestiae
-                mollitia odit officia omnis optio praesentium provident quasi ratione repellat ut. Beatae molestias
-                officia ratione veniam. At doloribus magnam placeat reprehenderit vel veniam! Aspernatur assumenda esse
-                ex mollitia totam voluptates!
+                quidem quo, reiciendis rerum tempora voluptatum. Hic, molestiae tempora?
             </p>
             <h2>Plus de 20 ans d'expérience à sélectionner les meilleurs produits</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium alias assumenda
@@ -26,13 +20,7 @@ const Home = () => {
                 necessitatibus nemo nobis nostrum odit officiis perspiciatis praesentium quam quia quidem quo ratione
                 recusandae rem repellat repudiandae similique sint soluta ullam unde velit veritatis? Architecto
                 blanditiis cupiditate eius enim id illum inventore labore mollitia nihil numquam provident quas quia
-                quidem quo, reiciendis rerum tempora voluptatum. Hic, molestiae tempora? Alias aspernatur dolorum eius
-                facilis iure magni molestias quod voluptates. Aliquam aut commodi debitis, dolorem ea enim expedita
-                facere odio ratione! Aperiam culpa dolorum laboriosam minus nesciunt. A assumenda, at atque aut
-                blanditiis, dignissimos eos eum exercitationem expedita fugiat id impedit inventore libero molestiae
-                mollitia odit officia omnis optio praesentium provident quasi ratione repellat ut. Beatae molestias
-                officia ratione veniam. At doloribus magnam placeat reprehenderit vel veniam! Aspernatur assumenda esse
-                ex mollitia totam voluptates!
+                quidem quo, reiciendis rerum tempora voluptatum.
             </p>
             <h2>Laissez-vous guider</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam at, atque autem culpa cum,
