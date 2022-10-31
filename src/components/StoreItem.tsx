@@ -12,7 +12,7 @@ type StoreItemProps = {
 }
 
 const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
-    const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart()
+    const {getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart} = useShoppingCart()
     const quantity = getItemQuantity(id);
     const [open, setOpen] = useState(false)
 
@@ -35,10 +35,11 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                     >
                         Description
                     </Button>
-                    <div style={{marginTop:"1rem"}}>
+                    <div style={{marginTop: "1rem"}}>
                         <Collapse in={open} timeout={0}>
                             <div id="example-collapse-text" className="border-secondary border-1">
-                                <Card body className="fst-italic mb-3 h-100 border-secondary border-4" style={{width:"auto"}}>
+                                <Card body className="fst-italic mb-3 h-100 border-secondary border-4"
+                                      style={{width: "auto"}}>
                                     {description}
                                 </Card>
                             </div>
@@ -46,17 +47,21 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                     </div>
 
                     {quantity === 0 ? (
-                        <Button className="w-100 text-dark fw-bold" variant="secondary" onClick={() => increaseCartQuantity(id)}>+ Ajouter au panier</Button>
+                        <Button className="w-100 text-light fw-bold" variant="secondary"
+                                onClick={() => increaseCartQuantity(id)}>+ Ajouter au panier</Button>
                     ) : <div className="d-flex align-items-center flex-column" style={{gap: ".5rem"}}>
                         <div className="d-flex align-items-center justify-content-center" style={{gap: ".5rem"}}>
-                            <Button className="fw-bold" variant="outline-dark" onClick={() => decreaseCartQuantity(id)}>-</Button>
+                            <Button className="fw-bold" variant="outline-dark"
+                                    onClick={() => decreaseCartQuantity(id)}>-</Button>
                             <div className="d-flex flex-column justify-content-center align-items-center p-2">
                                 <span className="fs-6 fw-bold">Quantité</span>
                                 <span className="fs-6">{quantity}</span>
                             </div>
-                            <Button className="fw-bold" variant="outline-dark" onClick={() => increaseCartQuantity(id)}>+</Button>
+                            <Button className="fw-bold" variant="outline-dark"
+                                    onClick={() => increaseCartQuantity(id)}>+</Button>
                         </div>
-                        <Button className="fw-bold" onClick={() => removeFromCart(id)} variant={"outline-danger"} size={"sm"}>Supprimer</Button>
+                        <Button className="fw-bold" onClick={() => removeFromCart(id)} variant={"outline-danger"}
+                                size={"sm"}>Supprimer</Button>
                     </div>}
                 </div>
             </Card.Body>

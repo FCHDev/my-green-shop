@@ -5,7 +5,8 @@ import logo from "../assets/dailygreen-logo.png"
 
 export default function App() {
     return (
-        <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted mb-0 mt-5 p-1 h-auto'>
+        <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted mb-0 mt-5 p-1 h-auto w-100'
+        style={{position: "sticky"}}>
             <section className=''>
 
                 <MDBContainer className='text-center text-md-start mt-5 pt-3'>

@@ -9,19 +9,19 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  return (
-      <ShoppingCartProvider>
-          <Navbar/>
-          <Container className="mb-4">
-              <Routes>
-                  <Route path="/" element={<Home/>}/>
-                  <Route path="/store" element={<Store/>}/>
-                  <Route path="/about" element={<About/>}/>
-              </Routes>
-          </Container>
-          <Footer />
-      </ShoppingCartProvider>
-  );
+    return (
+        <ShoppingCartProvider>
+            <Navbar/>
+            <Container className="mb-4" style={{minHeight: "67vh"}}>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/store" element={<Store/>}/>
+                    <Route path="/about" element={<About/>}/>
+                </Routes>
+            </Container>
+            <Footer/>
+        </ShoppingCartProvider>
+    );
 }
 
 export default App;
