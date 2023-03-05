@@ -12,7 +12,7 @@ function App() {
     return (
         <ShoppingCartProvider>
             <Navbar/>
-            <Container className="mb-4" style={{minHeight: "67vh"}}>
+            <Container className="flex flex-col py-3 items-center justify-center min-h-screen">
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/store" element={<Store/>}/>

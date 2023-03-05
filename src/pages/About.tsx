@@ -2,34 +2,37 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className="pt-3">
             <h1 className="mb-4 fw-bold">À propos</h1>
-            <h2>Pourquoi DailyGreen ?</h2>
-            <div>
-                <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium alias assumenda
-                    autem dolorem earum enim eos esse ex, exercitationem illum ipsa ipsam iste, itaque laboriosam
-                    molestias
-                    necessitatibus nemo nobis nostrum odit officiis perspiciatis praesentium quam quia quidem quo
-                    ratione
-                    recusandae rem repellat repudiandae similique sint soluta ullam unde velit veritatis? Architecto
-                    blanditiis cupiditate eius enim id illum inventore labore mollitia nihil numquam provident quas quia
-                    quidem quo, reiciendis rerum tempora voluptatum. Hic, molestiae tempora? Alias aspernatur dolorum
-                    eius
-                    facilis iure magni molestias quod voluptates.</p>
-                <p className="fs-5">Aliquam aut commodi debitis, dolorem ea enim
-                    expedita
-                    facere odio ratione! Aperiam culpa dolorum laboriosam minus nesciunt. A assumenda, at atque aut
-                    blanditiis, dignissimos eos eum exercitationem expedita fugiat id impedit inventore libero molestiae
-                    mollitia odit officia omnis optio praesentium provident quasi ratione repellat ut. Beatae molestias
-                    officia ratione veniam. At doloribus magnam placeat reprehenderit vel veniam! Aspernatur assumenda
-                    esse
-                    ex mollitia totam voluptates!</p>
-                <p className="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium aliquid beatae
-                    dignissimos dolore earum eos est eum facilis fuga incidunt iure maiores, minima minus nostrum odio
-                    odit omnis, perferendis quisquam repellat repudiandae temporibus totam velit vero voluptate.
-                    Doloremque laboriosam laudantium obcaecati similique, sint sunt. Amet atque autem, error est fugiat
-                    hic in, ipsa iure labore maiores nam neque nostrum perferendis quia quibusdam quisquam ratione sequi
-                    veniam. Excepturi iure minus nam officiis repellat!</p>
+            <h2 className="text-secondary">Pourquoi DailyGreen ?</h2>
+            <div className="py-2">
+                <p className="text-lg">
+                    Notre entreprise est née d'une profonde conviction : il est possible de mener une vie épanouissante
+                    tout en respectant l'environnement. C'est pourquoi nous proposons une large gamme de produits bio et
+                    éco-responsables pour accompagner notre clientèle dans sa transition vers un mode de vie plus
+                    durable. Nous nous efforçons de vous offrir des produits de qualité, respectueux de l'environnement
+                    et adaptés à tous vos besoins. De l'alimentation à la décoration, en passant par l'entretien de
+                    votre maison et votre bien-être, vous trouverez chez nous des produits qui vous permettront de vivre
+                    en harmonie avec la nature.
+                </p>
+                <p className="text-lg">
+                    Nos valeurs sont au cœur de notre entreprise et nous guident dans chacune de nos décisions. Nous
+                    sommes convaincus que la consommation responsable est une source de bien-être pour tous, et nous
+                    nous engageons donc à vous offrir les meilleurs produits bio et éco-responsables du marché,
+                    sélectionnés avec soin pour leur qualité et leur efficacité. Nous sommes également attachés à la
+                    transparence et à la traçabilité de nos produits, pour vous permettre de faire des choix en toute
+                    connaissance de cause. Enfin, nous nous efforçons de minimiser notre empreinte écologique et de
+                    contribuer ainsi à un monde plus durable.
+                </p>
+                <p className="text-lg">
+                    Notre équipe est composée de passionnés de la nature et de l'environnement, soucieux de vous offrir
+                    une expérience client unique. Nous sommes à votre écoute pour répondre à toutes vos questions et
+                    vous conseiller dans le choix des produits les mieux adaptés à vos besoins. Nous travaillons en
+                    étroite collaboration avec des producteurs locaux et des partenaires engagés, pour vous offrir une
+                    sélection de produits bio et éco-responsables toujours plus qualitative et diversifiée. Nous sommes
+                    fiers de notre entreprise et de notre engagement pour la planète, et nous espérons que vous
+                    partagerez avec nous cette passion pour le bio et l'éco-responsable.
+                </p>
             </div>
         </div>
     );

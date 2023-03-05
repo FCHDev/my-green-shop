@@ -17,17 +17,16 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
     const [open, setOpen] = useState(false)
 
     return (
-        <Card className="h-100">
-            <Card.Img className="mt-3" variant="top" src={imgUrl} height="250px" style={{objectFit: "contain"}}/>
+        <Card>
+            <Card.Img variant="top" src={imgUrl} height="200px" style={{objectFit: "contain"}}/>
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-                    <span className="fs-4 fw-semibold">{name}</span>
-                    <span className="ms-2 text-muted">{FormatCurrency(price)}</span>
+                <Card.Title className="flex justify-between items-start mb-4 h-10">
+                    <span className="text-base fw-semibold">{name}</span>
+                    <span className="ms-2 text-muted text-xl">{FormatCurrency(price)}</span>
                 </Card.Title>
                 <div className="mt-auto">
-
                     <Button
-                        className="w-100"
+                        className="w-full"
                         onClick={() => setOpen(!open)}
                         variant="outline-dark"
                         aria-controls="example-collapse-text"
@@ -37,8 +36,8 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                     </Button>
                     <div style={{marginTop: "1rem"}}>
                         <Collapse in={open} timeout={0}>
-                            <div id="example-collapse-text" className="border-secondary border-1">
-                                <Card body className="fst-italic mb-3 h-100 border-secondary border-4"
+                            <div className="border-secondary border-1">
+                                <Card body className="italic text-sm mb-3 border-secondary border-4"
                                       style={{width: "auto"}}>
                                     {description}
                                 </Card>
@@ -47,8 +46,10 @@ const StoreItem = ({id, name, price, imgUrl, description}: StoreItemProps) => {
                     </div>
 
                     {quantity === 0 ? (
-                        <Button className="w-100 text-light fw-bold" variant="secondary"
-                                onClick={() => increaseCartQuantity(id)}>+ Ajouter au panier</Button>
+                        <button className="w-full bg-jaune py-2 rounded-xl font-semibold hover:bg-black hover:text-jaune"
+                                onClick={() => increaseCartQuantity(id)}>
+                            + Ajouter au panier
+                        </button>
                     ) : <div className="d-flex align-items-center flex-column" style={{gap: ".5rem"}}>
                         <div className="d-flex align-items-center justify-content-center" style={{gap: ".5rem"}}>
                             <Button className="fw-bold" variant="outline-dark"
